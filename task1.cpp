@@ -28,5 +28,16 @@ int main()
     cout << "false = " << (a2 < a4) << endl;
     cout << "true = " << (a2>=a2) << endl;
     cout << "true = " << (a1<=a2) << endl;
+    //Задание 3 
+    cout << "true = " << (a1==a4 && a2==a3) << endl;
+    cout << "true = " << (a2==a3 || a3==a4) << endl;
+    cout << "true = " << (a2!=a4 && a1!=a3) << endl;
+    cout << "true = " << (a1!=a4 || a2!=a1) << endl;
+    cout << "true = " << (a3 > a1 && a2>a4) << endl;
+    cout << "true = " << (a1 > a2 || a2>a4) << endl;
+    cout << "true = " << (a4 < a2 && a1 < a2) << endl;
+    cout << "true = " << (a1 < a2 || a3<a4) << endl;
+    cout << "true = " << (a2>=a2 && a3>=a4) << endl;
+    cout << "true = " << (a1<=a2 || a3<=a4) << endl; 
     return 0;
 }
